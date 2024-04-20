@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fastbook"
+version = "0.1.0"
+description = "Env to run DeepLearning Practica Learning examples"
+authors = ["Felipe Sodré <felipe.b4rros@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^4.1.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
