@@ -1443,6 +1443,18 @@ test = ["coverage", "pytest (>=7.0)", "pytest-check-links (>=0.7)", "pytest-cons
 upgrade-extension = ["copier (>=8.0,<9.0)", "jinja2-time (<0.3)", "pydantic (<2.0)", "pyyaml-include (<2.0)", "tomli-w (<2.0)"]
 
 [[package]]
+name = "jupyterlab-extensions"
+version = "0.0.1"
+description = ""
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "jupyterlab-extensions-0.0.1.tar.gz", hash = "sha256:6baa8cb96d7d19d82da555b8f99e98ee0c48fd5301e24dcd5d3c1973022ff131"},
+    {file = "jupyterlab_extensions-0.0.1-py3-none-any.whl", hash = "sha256:f4804fa449c2069d06798e0703e015aa59352c153c61e65fa1573820e57a4a4b"},
+]
+
+[[package]]
 name = "jupyterlab-pygments"
 version = "0.3.0"
 description = "Pygments theme using JupyterLab CSS variables"
@@ -4000,4 +4012,4 @@ test = ["websockets"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "973cd65ddc29775359a1c31defbd1efcfdaf6887679c8da4941e9dbb8410a1da"
+content-hash = "b41c9f63f088971bb0e94be5373ebfd1a479f4388d3a349c5bbcc01081e22720"
